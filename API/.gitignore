@@ -1,0 +1,62 @@
+# -------------------------------
+# Build artifacts
+# -------------------------------
+bin/
+obj/
+out/
+
+# -------------------------------
+# Visual Studio
+# -------------------------------
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# -------------------------------
+# VS Code
+# -------------------------------
+.vscode/
+
+# -------------------------------
+# Rider
+# -------------------------------
+.idea/
+*.DotSettings.user
+_ReSharper*/
+
+# -------------------------------
+# NuGet
+# -------------------------------
+*.nupkg
+packages/
+.nuget/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# -------------------------------
+# EF Core / Database
+# -------------------------------
+Migrations/
+*.dbmdl
+*.mdf
+*.ldf
+
+# -------------------------------
+# ASP.NET / Web API
+# -------------------------------
+appsettings*.Local.json    # local dev configs
+launchSettings.json        # local dev launch profiles
+
+# -------------------------------
+# Logs
+# -------------------------------
+*.log
+
+# -------------------------------
+# OS Generated
+# -------------------------------
+.DS_Store
+Thumbs.db
